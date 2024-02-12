@@ -1,0 +1,118 @@
+body {
+  background-color: #0f1624;
+  margin: 0;
+}
+
+.nav {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 137px;
+  padding: 0 120px;
+}
+.navIteams {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  align-items: normal;
+}
+.naviteams1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 800px;
+  padding-right: 40px;
+}
+
+#iteam1 {
+  margin: 0;
+}
+
+#iteam {
+  align-self: center;
+  color: white;
+}
+.hero {
+  background-color: #0f1624;
+  position: absolute;
+  width: 1157px;
+  height: 594px;
+  top: 248px;
+  left: 25%;
+  right: 25%;
+}
+.circle-border {
+  border-radius: 50%;
+  border-color: blue;
+  width: 490px;
+  height: 490px;
+  background: #0f1624;
+  border: 2px solid blue;
+}
+div.circle-border {
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+.circle-border1 {
+  border-radius: 50%;
+  border-color: blue;
+  width: 138px;
+  height: 138px;
+  background: #6978d1;
+  border: 2px solid blue;
+}
+div.circle-border1 {
+  position: absolute;
+  top: 35%;
+  right: 0px;
+  order: 1;
+}
+
+.circle-border2 {
+  border-radius: 50%;
+  border-color: blue;
+  width: 280px;
+  height: 280px;
+  background: grey;
+  border: 2px solid blue;
+}
+div.circle-border2 {
+  position: absolute;
+  top: 0px;
+  right: 69px;
+  order: 1;
+}
+
+#iteam3 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 50px;
+}
+div.text {
+  position: absolute;
+  height: 192;
+  top: 10%;
+}
+div.paragraph {
+  position: absolute;
+  height: 54;
+  top: 50%;
+}
+
+#headline {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 96px;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+}
+#aboutpr {
+  color: #929eb0;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
